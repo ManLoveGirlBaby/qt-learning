@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>736</width>
-    <height>484</height>
+    <width>428</width>
+    <height>926</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>731</width>
+      <x>330</x>
+      <y>860</y>
+      <width>100</width>
       <height>21</height>
      </rect>
     </property>
@@ -36,7 +36,20 @@
      <enum>Qt::AutoText</enum>
     </property>
     <property name="alignment">
-     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>181</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QString</string>
     </property>
    </widget>
   </widget>
@@ -45,7 +58,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>736</width>
+     <width>428</width>
      <height>21</height>
     </rect>
    </property>
