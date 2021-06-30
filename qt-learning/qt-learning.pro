@@ -17,11 +17,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     arrowpaddialog.cpp \
+    detailmainwindow.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     arrowpaddialog.h \
+    detailmainwindow.h \
     mainwindow.h
 
 #FORMS += \

@@ -4,6 +4,9 @@
 
 ArrowPadDialog::ArrowPadDialog()
 {
+//    隐藏窗口标题栏
+//    setWindowFlags(Qt::CustomizeWindowHint|Qt::WindowStaysOnTopHint);
+
     upBtn = createButton(tr("&Up"), SLOT(upClicked()));
     downBtn = createButton(tr("&Down"), SLOT(downClicked()));
     leftBtn = createButton(tr("&Left"), SLOT(leftClicked()));
