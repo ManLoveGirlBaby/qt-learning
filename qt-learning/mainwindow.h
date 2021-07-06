@@ -11,6 +11,9 @@ QT_END_NAMESPACE
 
 class ArrowPadDialog;
 class DetailMainWindow;
+class ImageViewer;
+class ItemViewWindow;
+class TextEditorWindow;
 
 class MainWindow : public QMainWindow
 {
@@ -18,7 +21,6 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow();
-    ~MainWindow();
 
 private:
     QAction *exitAct;
@@ -26,16 +28,24 @@ private:
 
     QPushButton *detailMainBtn;
     QPushButton *arrowPadBtn;
+    QPushButton *imageViewerBtn;
+    QPushButton *itemViewBtn;
+    QPushButton *textEditorBtn;
 
-    ArrowPadDialog *arrowPadDialog;
     DetailMainWindow *detailMainWindow;
+    ArrowPadDialog *arrowPadDialog;
+    ImageViewer *imageViewer;
+    ItemViewWindow *itemViewWindow;
+    TextEditorWindow *textEditorWindow;
 
     void initView();
     QPushButton *createButton(const QString &text, const char *member);
 
 private slots:
-    void arrowPadClick();
     void detailMainClick();
-
+    void arrowPadClick();
+    void imageViewClick();
+    void itemViewClick();
+    void textEditorClick();
 };
 #endif // MAINWINDOW_H

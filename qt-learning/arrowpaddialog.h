@@ -6,7 +6,7 @@
 class ArrowPadDialog : public QDialog
 {
     Q_OBJECT
-
+//检测
 public:
     ArrowPadDialog();
     ~ArrowPadDialog();

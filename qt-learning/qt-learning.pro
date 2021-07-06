@@ -17,14 +17,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     arrowpaddialog.cpp \
+    carmodel.cpp \
     detailmainwindow.cpp \
+    imageviewer.cpp \
+    itemviewwindow.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    texteditorwindow.cpp
 
 HEADERS += \
     arrowpaddialog.h \
+    carmodel.h \
     detailmainwindow.h \
-    mainwindow.h
+    imageviewer.h \
+    itemviewwindow.h \
+    mainwindow.h \
+    texteditorwindow.h
 
 #FORMS += \
 #    mainwindow.ui
